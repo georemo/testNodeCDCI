@@ -8,7 +8,6 @@ Resulting docker image: goremo/test-node-cdci
 The image hosts a simple Node.js application based on the example at this link below: <br>
 https://www.testim.io/blog/node-js-unit-testing-get-started-quickly-with-examples <br>
 The above link could not work but a number of corrections were made before it worked satisfactorily. <br>
-Reference: https://github.com/georemo/testNodeCDCI <br>
 
 <strong>Demo Instructions:</strong><br>
 1. docker run  --name add-app -p 3001:3001 goremo/test-node-cdci:tagname (replace tagname with appropriate tag eg '4')
